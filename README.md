@@ -1,14 +1,6 @@
-## CompressioWeb &middot; [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+## Easy-Compress &middot;
+```
 
-```
-1. CompressioWeb is an Open Source Production Grade Image Compression API and Web Application.
-2. Privacy friendly, no database, no analytics, no logs, no cookies and auto image deletion in an hour after upload.
-3. It compresses JPG, PNG, GIF & SVG images in both Lossy and Lossless formats.
-4. CompressioWeb is built with Node.js, Express.js and React.js.
-5. Libraries used are JPEGOptim, PNGQuant, OptiPNG, GIFSicle, Scour.
-6. CompressioWeb is fully maintained and will be available in future with all the updates.
-7. Installation docs for DigitalOcean Ubuntu 20.04 is given below.
-```
 
 ## Built With
 
@@ -21,10 +13,6 @@
 * [GIFSicle](https://www.lcdf.org/gifsicle/) - GIF Compression Library
 * [Scour](https://www.codedread.com/scour/) - SVG Compression Library
 
-## Authors
-
-* **Choudhary Abdullah** - API and Frontend - [LinkedIn](https://www.linkedin.com/in/abdullahchoudhary/)
-* **Fahad Ahmad** - Frontend - [LinkedIn](https://www.linkedin.com/in/fahad-ahmad-b042a7112/)   
 
 ## Screenshots
 
@@ -256,7 +244,3 @@ pm2 startup
 pm2 save
 ```
 
-## Acknowledgments
-
-* Frontend is inspired from [Caesium Image Compressor](https://caesium.app)
-* Learnt about all the five compression libraries from [Compressor.io](https://compressor.io/) when it was free.

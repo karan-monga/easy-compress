@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/css/navbar.css';
+import Logo from '../assets/images/logo-img.png'
 
 export const Navbar = () => {
 	return (
@@ -7,7 +8,7 @@ export const Navbar = () => {
 			<ul>
 				{/* //<li className='navBrand'>Compressio</li> */}
 				<a className='navBrandHref' href='/'>
-					<li className='navBrand'>Easy Compress</li>
+					<img className='nav-logo' src={Logo} alt='Logo' />
 				</a>
 				{/* <div className='navItem'>
 					<a className='donateAnc' href='https://www.paypal.me'>

@@ -34,7 +34,7 @@ html{
 .navbar ul{
     height: 100%;
     list-style-type: none;
-    padding: 0 1.5rem;
+    padding: 1rem 1.5rem;
     display: flex;
     justify-content: space-between;;
     align-items: center;
@@ -50,6 +50,12 @@ html{
 .contactAnc, .donateAnc, .navBrandHref {
     text-decoration: none !important;
 }
+
+.nav-logo{
+    width: 120px;
+    height: auto;
+}
+
 
 @media only screen and (min-width: 577px) {
     .navBrand {

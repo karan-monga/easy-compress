@@ -1,16 +1,17 @@
 .logo{
     width: 75px;
     height: auto;
+    margin-bottom: 1.5rem;
 }
 
 .line{
-    width: 8vw;
+    width: 4vw;
     height: 2px;
     background-color: #DF2D26;
 }
 
 .browseBtn {
-    font-weight: 600;
+    font-weight: 400;
     font-size: .9rem;
     margin-left: 6px;
 }
@@ -50,17 +51,29 @@
 }
 .uploadFiles{
     display: flex;
-    min-height: 15rem;
+    max-width: 1240px;
+    padding: 1rem 0;
+    background-color: #ffffff;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 0rem 1.5rem 0rem;
+    border: 11px #DF2D26 solid;
+    border-radius: 28px;    
+    position: relative;
+    bottom: 100px;
+    margin-bottom: -80px;
+}
+
+.uploadBorder{
+    display: flex;
     height:fit-content;
-    padding: 3rem 0;
+    width: 90%;
     background-color: #ffffff;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    margin: 3rem 0rem 1.5rem 0rem;
+    padding: 2rem 2rem;
     border: 4px #031F5E dashed;
     border-radius: 16px;    
-    position: relative;
-    bottom: 100px;
-    margin-bottom: -80px;
+
 }

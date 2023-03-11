@@ -67,7 +67,7 @@
 .uploadBorder{
     display: flex;
     height:fit-content;
-    width: 90%;
+    width: 0%;
     background-color: #ffffff;
     justify-content: space-between;
     align-items: center;
